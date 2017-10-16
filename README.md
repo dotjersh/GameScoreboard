@@ -5,4 +5,5 @@ HTML5 Game Scoreboard
 https://github.com/dotjersh/GameScoreboard/releases/tag/1.0
 
 - Two Rinks
-- Name teams by color
+- Name teams
+- Custom Breaks
