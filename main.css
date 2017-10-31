@@ -1,4 +1,4 @@
-* { padding: 0px; margin: 0px; }
+* { padding: 0px; margin: 0px; user-select: none; -webkit-user-select: none; }
 
 :root {
   --white: #FFFFFF;
@@ -6,6 +6,12 @@
   --red: rgb(168, 40, 40);
 
   --button: var(--red);
+}
+
+input { user-select: text; -webkit-user-select: text; }
+
+header img {
+  height: 100%;
 }
 
 body {
@@ -121,7 +127,29 @@ section {
   width: 12vw;
 }
 
+.counter .minus {
+  background: rgb(168, 40, 40)
+}
+
 .counter .name {
   top: -5vh;
   outline: none;
+  background: rgb(168, 40, 40)
+}
+
+.twoRinks {
+  display: none;
+}
+
+.center {
+  width: 50%;
+  margin: auto;
+  float: none;
+  position: static;
+}
+
+.rinks {
+  width: 100vw;
+  position: absolute;
+  top: 60vh;
 }

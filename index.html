@@ -19,7 +19,7 @@ Josh Grift
 	</head>
 	<body>
     <header class="logo">
-      Onside Sports
+      <img src="logo.jpg">
     </header>
 
     <main>
@@ -32,34 +32,51 @@ Josh Grift
         <p class="button" onclick="pauseTimer();"><i class="fa fa-pause" aria-hidden="true"></i></p>
         <p class="button" onclick="resetTimer();"><i class="fa fa-refresh" aria-hidden="true"></i></p>
         <p class="button" onclick="changeTimer();"><i class="fa fa-cog" aria-hidden="true"></i></p>
+        <p class="button" onclick="moreRinks();"><i class="fa fa-hashtag" aria-hidden="true"></i></p>
+        <p class="button" onclick="help();"><i class="fa fa-question" aria-hidden="true"></i></p>
         <p class="button" onclick="fullscreen();"><i class="fa fa-arrows-alt" aria-hidden="true"></i></p>
       </div>
     </main>
 
-    <section class="left">
-      <div class="counter">
-        <input type='text' class="name button" value="Team A"></input>
-        <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
-        <span class="count">0</span>
-      </div>
-      <div class="counter">
-        <input type='text' class="name button" value="Team B"></input>
-        <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
-        <span class="count">0</span>
-      </div>
-    </section>
+    <section class="rinks">
+      <section class="center oneRinks">
+        <div class="counter">
+          <input type='text' class="name button" value=""></input>
+          <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
+          <span class="count">0</span>
+        </div>
+        <div class="counter">
+          <input type='text' class="name button" value=""></input>
+          <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
+          <span class="count">0</span>
+        </div>
+      </section>
 
-    <section class="right">
-      <div class="counter">
-        <input type='text' class="name button" value="Team 1"></input>
-        <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
-        <span class="count">0</span>
-      </div>
-      <div class="counter">
-        <input type='text' class="name button" value="Team 2"></input>
-        <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
-        <span class="count">0</span>
-      </div>
+      <section class="left twoRinks">
+        <div class="counter">
+          <input type='text' class="name button" value=""></input>
+          <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
+          <span class="count">0</span>
+        </div>
+        <div class="counter">
+          <input type='text' class="name button" value=""></input>
+          <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
+          <span class="count">0</span>
+        </div>
+      </section>
+
+      <section class="right twoRinks">
+        <div class="counter">
+          <input type='text' class="name button" value=""></input>
+          <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
+          <span class="count">0</span>
+        </div>
+        <div class="counter">
+          <input type='text' class="name button" value=""></input>
+          <p class="button minus"><i class="fa fa-minus" aria-hidden="true"></i></p>
+          <span class="count">0</span>
+        </div>
+      </section>
     </section>
 
 	</body>
